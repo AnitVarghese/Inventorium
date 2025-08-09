@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Inventorium.Models.Request>
+
+@{
+    ViewData["Title"] = "Request Inbox";
+}
+
+<div class="container mt-5">
+    <h2>Request Inbox</h2>
+    <hr />
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">No requests found.</div>
+    }
+    else
+    {
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Item Name</th>
+                    <th>Quantity</th>
+                    <th>Reason</th>
+                    @* <th>Requested By</th>
+                    <th>Requested At</th> *@
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var request in Model)
+                {
+                    <tr>
+                        <td>@request.ItemName</td>
+                        <td>@request.Quantity</td>
+                        <td>@request.Reason</td>
+                        @* <td>@request.RequestedBy</td>
+                        <td>@request.RequestedAt.ToString("dd-MMM-yyyy hh:mm tt")</td> *@
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

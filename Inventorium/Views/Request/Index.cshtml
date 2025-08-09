@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Inventorium.Models.Request>
+@{
+    ViewData["Title"] = "User Requests";
+}
+
+<h2>📥 User Requests</h2>
+
+@if (!Model.Any())
+{
+    <p>No requests submitted yet.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Item</th>
+                <th>Submitted</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var req in Model)
+            {
+                <tr>
+                    <td>@req.RequestedBy</td>      <!-- ✅ FIXED -->
+                    <td>@req.ItemName</td>
+                    <td>@req.RequestedAt.ToString("g")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
