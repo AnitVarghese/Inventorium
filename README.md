@@ -47,3 +47,7 @@ Inventorium allows admins to manage inventory and process user requests, while n
 ```bash
 git clone https://github.com/AnitVarghese/Inventorium.git
 cd inventorium
+
+===
+
+PS There are few more changes to be made and it is progressing.
