@@ -60,9 +60,13 @@ PS: More changes to be added and it is progressing.
 
 <img width="1920" height="1080" alt="Register" src="https://github.com/user-attachments/assets/49e32556-be50-40a9-98dd-5bfc12267bfe" /> <br><br>
 
+---
+
 <img width="1920" height="1080" alt="Admin's Page" src="https://github.com/user-attachments/assets/5c12bd83-ab5b-46c8-852f-798fdb77ddd2" /> <br><br>
 
 <img width="1920" height="1080" alt="Create" src="https://github.com/user-attachments/assets/bb14a01b-82f9-4655-98c0-24edbb65ab70" /> <br><br>
+
+---
 
 <img width="1920" height="1080" alt="Normal user page" src="https://github.com/user-attachments/assets/fffc6937-20b0-42e1-a86f-2eb72ce2cd68" /> <br><br>
 
