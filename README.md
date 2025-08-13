@@ -54,7 +54,7 @@ PS: More changes to be added and it is progressing.
 
 ---
 
-<img width="1920" height="1080" alt="Home" src="https://github.com/user-attachments/assets/00f93e7c-157f-48a6-9c15-5b72e6feeebd" style="margin-bottom:20px;"  />
+<img width="1920" height="1080" alt="Home" src="https://github.com/user-attachments/assets/00f93e7c-157f-48a6-9c15-5b72e6feeebd" style="margin-bottom:70px;"  />
 
 <img width="1920" height="1080" alt="Log in" src="https://github.com/user-attachments/assets/8e239cb0-920b-425c-a7c4-84421c25347e" />
 
